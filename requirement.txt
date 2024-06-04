@@ -1,0 +1,16 @@
+
+langchain
+streamlit
+python-dotenv
+transformers
+langchain-community
+pypdf
+arxiv
+wikipedia
+langchainhub
+beautifulsoup4
+bs4
+langchain-groq
+faiss-cpu
+langchain_openai
+langgraph
