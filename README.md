@@ -1,7 +1,3 @@
-Certainly! Below is a sample README for your LLM-based SQL interaction program. Feel free to customize it further to match your project's specifics:
-
----
-
 # LLM-Based SQL Interaction Program
 
 This repository contains an LLM (Language Learning Model) based SQL interaction program. The program allows users to interact with an SQL database using natural language queries. It leverages Python, LangChain, and LangGraph to provide an intuitive interface for querying data.
@@ -32,23 +28,13 @@ Follow these steps to set up and run the program:
 ## Usage
 
 1. Open the web app in your browser (usually at `http://localhost:8501`).
-2. Enter your SQL query in the provided input field.
+2. Enter your SQL question in the provided input field.
 3. Click the "Submit" button to execute the query.
 4. View the results displayed on the page.
-
-## Example Queries
-
-- "Show me all customers from the USA."
-- "What are the top-selling albums?"
-- "Find the total revenue by genre."
 
 ## Notes
 
 - The LLM model parses your natural language query and translates it into SQL.
 - Make sure your database schema aligns with the expected queries for accurate results.
-
-Feel free to explore and enhance the program further! If you encounter any issues or have questions, don't hesitate to reach out. Happy querying! 🚀
-
----
 
 Remember to replace the placeholders with actual details relevant to your project. Let me know if you need any further assistance! 😊
