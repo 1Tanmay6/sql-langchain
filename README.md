@@ -1,0 +1,54 @@
+Certainly! Below is a sample README for your LLM-based SQL interaction program. Feel free to customize it further to match your project's specifics:
+
+---
+
+# LLM-Based SQL Interaction Program
+
+This repository contains an LLM (Language Learning Model) based SQL interaction program. The program allows users to interact with an SQL database using natural language queries. It leverages Python, LangChain, and LangGraph to provide an intuitive interface for querying data.
+
+## Getting Started
+
+Follow these steps to set up and run the program:
+
+1. **Install Dependencies:**
+   - Make sure you have Python installed (version 3.6 or higher).
+   - Open a terminal or command prompt and navigate to the project directory.
+   - Run the following command to install the required dependencies:
+     ```
+     pip install -r requirements.txt
+     ```
+
+2. **Configure Database Path:**
+   - Open `src/main.py` in a text editor.
+   - Locate the `db_path` variable and update it with the path to your SQLite database file (e.g., `./database/chinook.db`).
+
+3. **Run the Program:**
+   - In the terminal, execute the following command to start the program:
+     ```
+     streamlit run ./src/main.py
+     ```
+   - This will launch a Streamlit web app where you can input natural language queries to interact with the database.
+
+## Usage
+
+1. Open the web app in your browser (usually at `http://localhost:8501`).
+2. Enter your SQL query in the provided input field.
+3. Click the "Submit" button to execute the query.
+4. View the results displayed on the page.
+
+## Example Queries
+
+- "Show me all customers from the USA."
+- "What are the top-selling albums?"
+- "Find the total revenue by genre."
+
+## Notes
+
+- The LLM model parses your natural language query and translates it into SQL.
+- Make sure your database schema aligns with the expected queries for accurate results.
+
+Feel free to explore and enhance the program further! If you encounter any issues or have questions, don't hesitate to reach out. Happy querying! 🚀
+
+---
+
+Remember to replace the placeholders with actual details relevant to your project. Let me know if you need any further assistance! 😊
