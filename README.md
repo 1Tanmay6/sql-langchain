@@ -1,6 +1,6 @@
 # LLM-Based SQL Interaction Program
 
-This repository contains an LLM (Language Learning Model) based SQL interaction program. The program allows users to interact with an SQL database using natural language queries. It leverages Python, LangChain, and LangGraph to provide an intuitive interface for querying data.
+This repository contains an LLM (Language Learning Model) based SQL interaction program. The program allows users to interact with an SQLite database using natural language queries. It leverages Python, LangChain, and LangGraph to provide an intuitive interface for querying data.
 
 ## Getting Started
 
